@@ -6,10 +6,10 @@ namespace ASP.NETDevelopment.EnrollmentInterview.Putseika
     {
         private static char[] vowels = { 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U' };
 
-        public static int CountOfVowels(string inputString)
+        public static int CountOfVowels(string inputtedString)
         {
             int countOfVowels = 0;
-            foreach (char symbol in inputString)
+            foreach (char symbol in inputtedString)
             {
                 for (int i = 0; i < vowels.Length; i++)
                 {

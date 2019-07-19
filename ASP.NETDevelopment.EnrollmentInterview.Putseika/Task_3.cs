@@ -8,7 +8,6 @@ namespace ASP.NETDevelopment.EnrollmentInterview.Putseika
         {
             string swap = "";
             for (int i = 0; i < arrOfString.Length; i++)
-            {
                 for (int j = arrOfString.Length - 1; j > i; j--)
                     if (arrOfString[j - 1].Length > arrOfString[j].Length)
                     {
@@ -16,8 +15,6 @@ namespace ASP.NETDevelopment.EnrollmentInterview.Putseika
                         arrOfString[j - 1] = arrOfString[j];
                         arrOfString[j] = swap;
                     }
-            }
         }
-
     }
 }
